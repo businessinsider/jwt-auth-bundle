@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "auth0/auth0-php",
-            "version": "5.7.0",
+            "version": "5.8.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/auth0/auth0-PHP.git",
-                "reference": "1bf6d8568fe729804922afa28dfb4107e9c20225"
+                "url": "https://github.com/businessinsider/auth0-PHP.git",
+                "reference": "c9f2501ed86a6f36468ca91dde6ad3195d3b7153"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auth0/auth0-PHP/zipball/1bf6d8568fe729804922afa28dfb4107e9c20225",
-                "reference": "1bf6d8568fe729804922afa28dfb4107e9c20225",
+                "url": "https://api.github.com/repos/businessinsider/auth0-PHP/zipball/c9f2501ed86a6f36468ca91dde6ad3195d3b7153",
+                "reference": "c9f2501ed86a6f36468ca91dde6ad3195d3b7153",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
                 }
             ],
             "description": "Auth0 PHP SDK.",
-            "homepage": "https://github.com/auth0/auth0-PHP",
+            "homepage": "https://github.com/businessinsider/auth0-PHP",
             "time": "2019-12-09T22:36:51+00:00"
         },
         {

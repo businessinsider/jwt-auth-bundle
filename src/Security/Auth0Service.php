@@ -66,7 +66,7 @@ class Auth0Service {
      *
      * @return \stdClass
      */
-    public function decodeJWT($encToken)
+    public function decodeJWT($encToken, $static_well_known = false)
     {
         $config = [
             // The api_identifier setting could come through as an array or a string.
@@ -83,6 +83,6 @@ class Auth0Service {
 
         $verifier = new JWTVerifier($config);
 
-        return $verifier->verifyAndDecode($encToken);
+        return $verifier->verifyAndDecode($encToken, $static_well_known);
     }
 }
