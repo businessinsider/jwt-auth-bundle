@@ -7,7 +7,7 @@
     "content-hash": "90b9e231f359bfa92bbc2c037b202a70",
     "packages": [
         {
-            "name": "auth0/auth0-php",
+            "name": "businessinsider/auth0-php",
             "version": "5.8.0",
             "source": {
                 "type": "git",
